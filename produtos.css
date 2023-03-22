@@ -1,4 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+
 .body{
     background-image: url('bg_produtos.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+   
 
 }
+
+
+
+.col1{
+    border: 1px solid red;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col2{
+    border: 1px solid red;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col3{
+    border: 1px solid red;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
