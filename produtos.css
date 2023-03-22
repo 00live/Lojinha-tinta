@@ -15,25 +15,52 @@
 
 
 
-.col1{
+.line1{
     border: 1px solid red;
-    height: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+   display: flex;
+   justify-content: center;
+   gap: 50px
+
+}
+#item1{
+    border: 1px solid rgb(0, 30, 255);
+    height: 350px;
+    width: 290px;
 }
 
-.col2{
-    border: 1px solid red;
-    height: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
+#item2{
+    border: 1px solid rgb(0, 30, 255);
+    height: 350px;
+    width: 290px;
 }
 
-.col3{
+#item3{
+    border: 1px solid rgb(0, 30, 255);
+    height: 350px;
+    width: 290px;
+}
+
+
+
+
+
+
+
+.line2{
     border: 1px solid red;
-    height: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.line3{
+    border: 1px solid red;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
