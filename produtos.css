@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;}
 
+
+        /*font-family: 'Nunito', sans-serif ;
+        font-family: 'Poppins', sans-serif;*/
+    
+    
+    
+
+
 .body{
     background-image: url('bg_produtos.jpg');
     background-repeat: no-repeat;
@@ -26,6 +34,16 @@
     align-items: center;
 
 }
+
+#geral span{
+    *font-family: 'Nunito', sans-serif ;
+
+}
+
+#geral div{
+    font-family: 'Poppins', sans-serif;
+}
+
 #item1{
     border-top: 20px solid rgb(255, 255, 255);
     border-left: 20px solid rgb(255, 255, 255);
@@ -38,18 +56,14 @@
     margin: auto;
     width: 250px;
     height: 260px;
-    border:0
+    border:0}
+#txts_item1{
+    padding: 6px;
+    font-size: 18px;
+
 
 }
 
-#txt_item1{
-border: 1px solid red;
-width: 250px;
-height: 100px;
-position: absolute;
-z-index: 1;
-
-}
 
 
 #item2{
