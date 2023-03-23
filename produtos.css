@@ -24,7 +24,7 @@
 
 
 .line1{
-    border: 1px solid red;
+   
     height: 350px;
     margin-left: 100px;
     margin-right: 100px;
@@ -36,32 +36,37 @@
 }
 
 #geral span{
-    *font-family: 'Nunito', sans-serif ;
-
+    font-family: 'Nunito', sans-serif ;
+    
 }
 
 #geral div{
     font-family: 'Poppins', sans-serif;
 }
+  
+   
 
 #item1{
     border-top: 20px solid rgb(255, 255, 255);
     border-left: 20px solid rgb(255, 255, 255);
     border-right: 20px solid rgb(255, 255, 255);
     border-bottom: 70px solid rgb(255, 255, 255);
-    
+
+
+
+    cursor:pointer;
     height: 350px;
     width: 290px;}
+
 #imgaem1{
     margin: auto;
     width: 250px;
     height: 260px;
     border:0}
 #txts_item1{
-    padding: 6px;
+    
     font-size: 18px;
-
-
+    padding-bottom: 4px
 }
 
 
@@ -70,31 +75,41 @@
     border-top: 20px solid rgb(255, 255, 255);
     border-left: 20px solid rgb(255, 255, 255);
     border-right: 20px solid rgb(255, 255, 255);
-    border-bottom: 60px solid rgb(255, 255, 255);
+    border-bottom: 70px solid rgb(255, 255, 255);
     
-    height: 340px;
+    cursor: pointer;
+    height: 350px;
     width: 290px;}
 #imagem2{
     margin: auto;
     width: 250px;
     height: 260px;
-    border:0
-}
+    border:0}
+#txts_item2{
+        
+        font-size: 18px;
+    }
+    
 
 #item3{
     border-top: 20px solid rgb(255, 255, 255);
     border-left: 20px solid rgb(255, 255, 255);
     border-right: 20px solid rgb(255, 255, 255);
-    border-bottom: 60px solid rgb(255, 255, 255);
+    border-bottom: 70px solid rgb(255, 255, 255);
     
-    height: 340px;
+    height: 350px;
     width: 290px;}
 #imagem3{
     margin: auto;
     width: 250px;
     height: 260px;
     border:0}
-
+#txts_item3{
+        
+        font-size: 18px;
+        padding-bottom: 4px;
+    }
+    
 
 
 
