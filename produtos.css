@@ -23,17 +23,7 @@
 
 
 
-.line{
-   
-    height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    justify-content: center;
-    gap:70px;
-    align-items: center;
 
-}
 
 #geral span{
     font-family: 'Nunito', sans-serif ;
@@ -44,9 +34,19 @@
     font-family: 'Poppins', sans-serif;
 }
   
+.line{
    
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    gap:50px;
+    display: flex;
+    align-items: center;
 
-#item{
+}  
+
+.item{
     border-top: 20px solid rgb(255, 255, 255);
     border-left: 20px solid rgb(255, 255, 255);
     border-right: 20px solid rgb(255, 255, 255);
@@ -57,12 +57,14 @@
     cursor:pointer;
     height: 350px;
     width: 290px;}
-#imgaem1{
+
+.imagem{
     margin: auto;
     width: 250px;
     height: 260px;
     border:0}
-#txts_item1{
+
+.txts_item{
     
     font-size: 18px;
     padding-bottom: 4px
@@ -71,78 +73,11 @@
 
 
 
-#imagem2{
-    margin: auto;
-    width: 250px;
-    height: 260px;
-    border:0}
-#txts_item2{
-        padding-bottom: 4px;
-        font-size: 18px;
-    }
-    
-
-
-#imagem3{
-    margin: auto;
-    width: 250px;
-    height: 260px;
-    border:0}
-#txts_item3{
-        
-        font-size: 18px;
-        padding-bottom: 4px;
-    }
-    
-
-
-
-.line2{
-    height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    justify-content: center;
-    gap:70px;
-    align-items: center;
-    padding-top: 100px;
-}
-
-
-#imagem4{
-    margin: auto;
-    width: 250px;
-    height: 260px;
-    border:0
-
-}
-
-
-
-#imagem5{
-    margin: auto;
-    width: 250px;
-    height: 260px;
-    border:0}
 
 
 
 
-#imagem6{
-    margin: auto;
-    width: 250px;
-    height: 260px;
-    border:0
-}
 
-
-
-.line3{
-    border: 1px solid red;
-    height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 
 
