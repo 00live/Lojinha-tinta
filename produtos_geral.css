@@ -8,8 +8,7 @@
     background-image: url('bg-produtos-gerais.jpg');
     background-position: top center;
     background-size: cover;
-    height: 100vh;
-}   
+    height: 100vh;}   
 
   nav.manu-lateral{
         width: 75px;
@@ -20,26 +19,19 @@
         top:0;
         left:0;
         overflow: hidden;
-        transition: 0.5s    ;
-}
+        transition: 0.5s    ;}
 
 nav.manu-lateral.expandir{
-    width: 300px;
-}
+    width: 300px;}
 
 .bt_exp{
     width: 100%;
-    padding: 10px;
-
-}
+    padding: 10px;}
 
 .bt_exp > i{
 color:white;
 font-size: 24px;
-cursor: pointer; 
-
-}
-
+cursor: pointer;}
 .bt_voltar{
     text-decoration: none;
     color: white;
@@ -48,14 +40,11 @@ cursor: pointer;
     margin-left: 5px;
     z-index: 12;
     display: flex;
-    font-size: 20px;
-}
+    font-size: 20px;}
 
 ul{
 height: 100%;
-list-style-type: none;
-
-}
+list-style-type: none;}
 
 ul li.item_menu a{
     color: white;
@@ -63,50 +52,81 @@ ul li.item_menu a{
     font-size: 20px;
     padding:20px 4%;
     display: flex;
-    line-height: 40px;
-
-}
+    line-height: 40px;}
 
 ul li.ativo{
-    background-color: rgba(88, 122, 96,0.2);
-}
+    background-color: rgba(88, 122, 96,0.2);}
 
 
 ul li.item_menu a .txt_link{
     margin-left: 100px;
-    transition: 0.5s 
-
-}
+    transition: 0.5s }
 
 nav.manu-lateral.expandir .txt_link{
-    margin-left: 16px;
-}
+    margin-left: 16px;}
 
 #img_acessorios{
-    margin-left: 8px;
+    margin-left: 8px;}
 
-}
-
-ul li a .icon {
-  
-
-}
-
-
-ul li.item_menu{transition: 0.4s;
-}
+ul li.item_menu{transition: 0.4s;}
 ul li.item_menu:hover{
     background-color: rgba(88, 122, 96,0.2) ;}
     
 
+#section_masc{
+    margin-top: 35px;
+}    
+.line{
+    height: 350px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: center;
+    gap:50px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    margin-top: 50px;}
+
+.line2{
+        height: 350px;
+        margin-left: 180px;
+        margin-right: 180px;
+        justify-content: center;
+        gap:50px;
+        display: none;
+        align-items: center;
+        background-color: blue;
+        margin-top: 50px;
+        }
+
+.line3{
+            height: 350px;
+            margin-left: 180px;
+            margin-right: 180px;
+            justify-content: center;
+            gap:50px;
+            display: none;
+            align-items: center;
+            background-color: yellow;
+            margin-top: 50px;}
+
+.line4{
+                height: 350px;
+                margin-left: 180px;
+                margin-right: 180px;
+                justify-content: center;
+                gap:50px;
+                display: none;
+                align-items: center;
+                background-color: green;
+                margin-top: 50px;}
 
 
+#section_fem{}
 
+#section_aces{}
 
-
-
-
-
+#section_skt{}
 
 
 
