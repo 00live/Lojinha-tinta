@@ -75,17 +75,34 @@ ul li.item_menu:hover{
 
 #section_masc{
     margin-top: 35px;
-}    
-.line{
+}  
+
+.hide{
+    display: none;
+}
+
+.colunas_geral{
+display: flex;
+}
+
+
+
+#section_geral > .item{
+    border-top: 20px solid rgb(255, 255, 255);
+    border-left: 20px solid rgb(255, 255, 255);
+    border-right: 20px solid rgb(255, 255, 255);
+    border-bottom: 70px solid rgb(255, 255, 255);
+
+
+
+    cursor:pointer;
     height: 350px;
-    margin-left: 180px;
-    margin-right: 180px;
-    justify-content: center;
-    gap:50px;
-    display: flex;
-    align-items: center;
-    background-color: red;
-    margin-top: 50px;}
+    width: 290px;
+    transition: 0.4s;
+    
+    transition-duration: 0.4s;
+    transition: 450ms linear; }
+    
 
 .line2{
         height: 350px;
@@ -93,11 +110,9 @@ ul li.item_menu:hover{
         margin-right: 180px;
         justify-content: center;
         gap:50px;
-        display: none;
         align-items: center;
         background-color: blue;
-        margin-top: 50px;
-        }
+        margin-top: 50px;}
 
 .line3{
             height: 350px;
@@ -105,7 +120,6 @@ ul li.item_menu:hover{
             margin-right: 180px;
             justify-content: center;
             gap:50px;
-            display: none;
             align-items: center;
             background-color: yellow;
             margin-top: 50px;}
@@ -116,12 +130,12 @@ ul li.item_menu:hover{
                 margin-right: 180px;
                 justify-content: center;
                 gap:50px;
-                display: none;
                 align-items: center;
                 background-color: green;
                 margin-top: 50px;}
 
 
+                
 #section_fem{}
 
 #section_aces{}
