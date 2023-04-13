@@ -88,6 +88,13 @@ display: flex;
 
 }
 
+#section_geral span{
+    font-family: 'Nunito', sans-serif 
+}
+#section_geral div{
+    font-family: 'Poppins', sans-serif;
+}
+
 #section_geral{ 
     margin-left: 100px;
     margin-top: -70px;
@@ -127,15 +134,17 @@ margin: auto;
 
 }
 
-#section_masc{}
-                
-#section_fem{}
-
-#section_aces{}
-
-#section_skt{}
 
 
+.texto_do_item{}
+
+.txt_titulo{
+    font-size: 18px;
+    padding-bottom: 4px
+
+}
+
+.sub_txt{}
 
 
 
