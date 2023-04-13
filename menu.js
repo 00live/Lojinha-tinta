@@ -22,7 +22,7 @@
     var menuside = document.querySelector('.manu-lateral')
 
     btmenu.addEventListener('click', function(){
-        menuside.classList.toggle('expandir')
+        menuside.classList.toggle('expandir') 
         
         
         
@@ -38,12 +38,13 @@
         } else {
             section_masc.style.display ="none"
         }
-    */
+    
 
     var bt_masc = document.getElementById('pag_masc')
         bt_masc.addEventListener("click", () => {
             var section_masc = document.getElementById('section_masc');
             section_masc.classList.toggle("hide");
+
             
             
 
@@ -70,9 +71,105 @@
             section_skt.classList.toggle("hide")
         
         })
+*/
+    /*function abrir_guia(a){
+        let Localguia = document.getElementById('section_geral')
+        let pag = new XMLHttpRequest()
+
+        pag.onreadystatechange = () => {
+            if(pag.readyState == 4 && pag.status ==200){
+                Localguia.innerHTML = pag.response
+            }
+        }
+        pag.open(`GET`, `./${a}.html`)
+        pag.send()
+
+    }*/
 
 
-        
+    var section_masc = document.getElementById('section_masc');
+    var section_fem = document.getElementById('section_fem');
+    var section_aces = document.getElementById('section_aces')
+    var section_skt = document.getElementById('section_skt');
+
+  function abrir_masc(){
+
+    if( section_fem.classList.contains('hide')) {;
+    } else {
+        section_fem.classList.add("hide");
+    }
+
+    if( section_aces.classList.contains('hide')) {;
+    } else {
+        section_aces.classList.add("hide");
+    }
+
+    if( section_skt.classList.contains('hide')) {;
+    } else {
+        section_skt.classList.add("hide");
+    }
+    section_masc.classList.toggle("hide");  
+  }   
+
+function abrir_fem(){
+    
+    if( section_aces.classList.contains('hide')) {;
+    } else {
+        section_aces.classList.add("hide");
+    }
+
+    if( section_masc.classList.contains('hide')) {;
+    } else {
+        section_masc.classList.add("hide");
+    }
+
+    if( section_skt.classList.contains('hide')) {;
+    } else {
+        section_skt.classList.add("hide");
+    }
+    section_fem.classList.toggle("hide");  
+  }   
+
+
+
+function abrir_aces(){
+    if( section_masc.classList.contains('hide')) {;
+    } else {
+        section_masc.classList.add("hide");
+    }
+
+    if( section_fem.classList.contains('hide')) {;
+    } else {
+        section_fem.classList.add("hide");
+    }
+
+    if( section_skt.classList.contains('hide')) {;
+    } else {
+        section_skt.classList.add("hide");
+    }
+    section_aces.classList.toggle("hide");  
+  }  
+
+
+function abrir_skt(){
+    if( section_masc.classList.contains('hide')) {;
+    } else {
+        section_masc.classList.add("hide");
+    }
+
+    if( section_fem.classList.contains('hide')) {;
+    } else {
+        section_fem.classList.add("hide");
+    }
+
+    if( section_aces.classList.contains('hide')) {;
+    } else {
+        section_aces.classList.add("hide");
+    }
+    section_skt.classList.toggle("hide");  
+  }  
+
+    
 
 
 
@@ -108,20 +205,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  

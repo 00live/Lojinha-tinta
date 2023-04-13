@@ -32,6 +32,7 @@ nav.manu-lateral.expandir{
 color:white;
 font-size: 24px;
 cursor: pointer;}
+
 .bt_voltar{
     text-decoration: none;
     color: white;
@@ -57,7 +58,6 @@ ul li.item_menu a{
 ul li.ativo{
     background-color: rgba(88, 122, 96,0.2);}
 
-
 ul li.item_menu a .txt_link{
     margin-left: 100px;
     transition: 0.5s }
@@ -69,6 +69,7 @@ nav.manu-lateral.expandir .txt_link{
     margin-left: 8px;}
 
 ul li.item_menu{transition: 0.4s;}
+
 ul li.item_menu:hover{
     background-color: rgba(88, 122, 96,0.2) ;}
     
@@ -79,15 +80,20 @@ ul li.item_menu:hover{
 
 .hide{
     display: none;
+
 }
 
 .colunas_geral{
 display: flex;
+
 }
 
-
-
-#section_geral > .item{
+#section_geral{ 
+    margin-left: 100px;
+    margin-top: -70px;
+   
+    }
+#section_geral > div > .item{
     border-top: 20px solid rgb(255, 255, 255);
     border-left: 20px solid rgb(255, 255, 255);
     border-right: 20px solid rgb(255, 255, 255);
@@ -100,41 +106,28 @@ display: flex;
     width: 290px;
     transition: 0.4s;
     
-    transition-duration: 0.4s;
-    transition: 450ms linear; }
+     
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
     
+    }
 
-.line2{
-        height: 350px;
-        margin-left: 180px;
-        margin-right: 180px;
-        justify-content: center;
-        gap:50px;
-        align-items: center;
-        background-color: blue;
-        margin-top: 50px;}
+#section_geral > div >.item:hover{
+    border-radius: 8px;
+    transform: translate(5px, 5px);
+    box-shadow: 30px 20px rgba(88, 122, 96,0.9);
+}   
 
-.line3{
-            height: 350px;
-            margin-left: 180px;
-            margin-right: 180px;
-            justify-content: center;
-            gap:50px;
-            align-items: center;
-            background-color: yellow;
-            margin-top: 50px;}
+#section_geral > div> div>.img_item{
+height: 260px;
+width: 250px;
+border: 0;
+margin: auto;
 
-.line4{
-                height: 350px;
-                margin-left: 180px;
-                margin-right: 180px;
-                justify-content: center;
-                gap:50px;
-                align-items: center;
-                background-color: green;
-                margin-top: 50px;}
+}
 
-
+#section_masc{}
                 
 #section_fem{}
 
