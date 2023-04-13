@@ -41,7 +41,15 @@ cursor: pointer;}
     margin-left: 5px;
     z-index: 12;
     display: flex;
-    font-size: 20px;}
+    font-size: 20px;
+    margin-left: -2px;
+}
+
+#img_skt{
+    margin-left: 6px;
+    text-align: center;
+
+}
 
 ul{
 height: 100%;
