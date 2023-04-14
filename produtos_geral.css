@@ -123,17 +123,38 @@ display: flex;
     
      
     float: left;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 80px;
+    margin-top: 80px;
     
     }
+ #section_geral > div > .blocked{
+   border: 20px 20px rgba(0,0,0,0.8);
+    height: 350px;
+    width: 290px;
+    transition: 0.4s;
+    
+     
+    float: left;
+    margin-left: 80px;
+    margin-top: 80px;
+
+}
 
 #section_geral > div >.item:hover{
     border-radius: 8px;
-    transform: translate(5px, 5px);
-    box-shadow: 30px 20px rgba(88, 122, 96,0.9);
+    transform: translate(12px, 6px);
+    box-shadow: 15px 15px rgba(81, 97, 84, 0.9);
+    
 }   
 
+.blocked{
+    height: 260px;
+    width: 250px;
+    border: 0;
+    margin: auto;
+
+
+}
 #section_geral > div> div>.img_item{
 height: 260px;
 width: 250px;
