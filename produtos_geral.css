@@ -103,6 +103,8 @@ display: flex;
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 #section_geral{ 
     margin-left: 100px;
     margin-top: -70px;
@@ -124,11 +126,12 @@ display: flex;
      
     float: left;
     margin-left: 80px;
-    margin-top: 80px;
-    
-    }
- #section_geral > div > .blocked{
-   border: 20px 20px rgba(0,0,0,0.8);
+    margin-top: 80px;}
+
+ .item_block{
+  
+    background-color: black;
+
     height: 350px;
     width: 290px;
     transition: 0.4s;
@@ -137,8 +140,51 @@ display: flex;
     float: left;
     margin-left: 80px;
     margin-top: 80px;
+    text-align: center;
+    display: flex;
+    
+    filter: blur(0.6px);
+    
+    }
+    .item_block:hover{
+        filter: blur(1.8px);
+        transform:scale(1.07);
+        
 
+    transition: 0.3s;
+    }
+        #text_block{
+            color: aliceblue;
+            /*text-align: center;
+            justify-content: center;
+            align-items: center;
+            position: absolute; */   
+            position: absolute;
+            top:0; 
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1000;
+            padding-top:150px;
+            transform: rotate(-35deg) ;
+            font-size: 50px;
+            
+        }
+        #text_block:hover{color: rgb(139, 70, 55);
+            transition: 0.5s;
+        }
+    
+     
+    #block4{
+    height: 260px;
+    width: 250px;
+    border: 0;
+    margin: auto;
+  
+    
 }
+
+
 
 #section_geral > div >.item:hover{
     border-radius: 8px;
@@ -146,26 +192,14 @@ display: flex;
     box-shadow: 15px 15px rgba(81, 97, 84, 0.9);
     
 }   
-
-.blocked{
-    height: 260px;
-    width: 250px;
-    border: 0;
-    margin: auto;
-
-
-}
 #section_geral > div> div>.img_item{
 height: 260px;
 width: 250px;
 border: 0;
 margin: auto;
+position: relative;
 
 }
-
-
-
-.texto_do_item{}
 
 .txt_titulo{
     font-size: 18px;
@@ -173,9 +207,14 @@ margin: auto;
 
 }
 
-.sub_txt{}
 
-
+.desconto{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display:flex ;
+    position: absolute;
+}
 
 
 
