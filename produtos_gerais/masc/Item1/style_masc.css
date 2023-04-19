@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    .body{
+        background-image: url('/bg-produtos-gerais.jpg');
+        background-position: top center;
+        background-size: cover;
+        height: 100vh;
+         overflow: hidden;}  
+
+
+.imgs_lado{
+    background-color: red;
+    width:120px ;
+    height: 500px;
+}
+.img_slide{
+    position: relative;
+    text-align: center;
+}
+
+.carrosel{  
+    background-color: blue;
+    height:auto;
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.selection{
+    background-color: green;
+    height: 500px;
+    width: 350px;
+}
+
+.geral{
+display: flex;
+gap: 75px;
+margin-top:50px ;
+align-items: center;
+justify-content: center;
+}
+
+.div_input{
+    
+}
+
+
+.nav_manual{
+    position: relative;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.nav_manual .manual_bt{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}

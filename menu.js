@@ -172,7 +172,9 @@ function abrir_skt(){
     
 
 
-
+    function abrir_item1(){
+        window.location.href = "/produtos_gerais/masc/Item1/index_masc.html"
+    }
 
 
 
