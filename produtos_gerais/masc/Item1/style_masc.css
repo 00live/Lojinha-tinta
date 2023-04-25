@@ -19,36 +19,41 @@
 
 
 .slide-box img{
-    width: 50%;
+    height: 500px;
+    width: 500px;
+   
 }
 section.slider{
     margin:0 auto;
-    height: auto;
-    width: 100%;
-    padding: 0 ;
+    height: 500px;
+    width: 500px;
+    padding: 0;
     overflow: hidden;
+   
      
 }
 .carrosel{  
-    width: 400%;
-    height: auto;  
+    width: 500px;
+    height: 500px;  
     display: flex;
    
    
 
 }
 .slide-box{
-   width: 25%;
-    height: auto;
+    width: 500px;
+    height: 500px;
     position: relative;
     text-align: center;
+    
+   
+}
+input:checked ~ .imgs_lado{
+    background-color: aqua;
+   
+    
 }
 
-.selection{
-    background-color: green;
-    height: 500px;
-    width: 350px;
-}
 
 .geral{
 display: flex;
@@ -115,19 +120,7 @@ input{
     background-color:  rgb(63, 111, 59);
 }
 
-#rd1:checked ~ .primeiro{
-  
-    margin-left: 0%;
-}
 
-#rd2:checked ~ .carrosel:first-child{
-   
-}
 
-#rd3:checked ~ .primeiro{
-    margin-left: -50%;
-}
 
-#rd4:checked ~ .primeiro{
-    margin-left: -75%;
-}
+
