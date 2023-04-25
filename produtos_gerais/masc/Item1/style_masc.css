@@ -17,17 +17,30 @@
     height: 500px;
 }
 .img_slide{
-    position: relative;
-    text-align: center;
+    width: 100%;
 }
 
-.carrosel{  
-    background-color: blue;
-    height:auto;
+section.slider{
+    margin:0 auto;
+    height: 500px;
     width: 500px;
+    padding: 0 ;
+    overflow: hidden;
+     
+}
+.carrosel{  
+    width: 100%;
+    height: auto;  
     display: flex;
     overflow: hidden;
+   
 
+}
+.slide_box{
+   width: 500px;
+    height: auto;
+    position: relative;
+    text-align: center;
 }
 
 .selection{
@@ -45,7 +58,7 @@ justify-content: center;
 }
 
 .div_input{
-  display: none;
+
 }
 
 
@@ -72,7 +85,7 @@ justify-content: center;
 .nav_manual .manual_bt:not(:last-child), .nav_auto div:not(:last-child){
     margin-right: 10px;
 }
-
+/*
 #rd1:checked .nav_auto .auto_bt1{
     background-color: rgb(97, 136, 82);
 }
@@ -91,4 +104,29 @@ justify-content: center;
 
 #rd4:checked ~ .primeiro{
     margin-left: 75%;
+}*/
+
+
+#rd1:checked ~ .nav_auto .auto_bt1, 
+    #rd2:checked ~ .nav_auto .auto_bt2,
+        #rd3:checked ~ .nav_auto .auto_bt3,
+            #rd4:checked ~ .nav_auto .auto_bt4{
+    background-color:  rgb(63, 111, 59);
+}
+
+#rd1:checked ~ .primeiro{
+  
+    background-color: black;
+}
+
+#rd2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#rd3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+#rd4:checked ~ .primeiro{
+    margin-left: -75%;
 }
