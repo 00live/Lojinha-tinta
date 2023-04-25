@@ -17,7 +17,23 @@ document.getElementById('rd1').checked = true
 
     setInterval(() => {
         proxImg ()
-    }, 5000)
+    }, 4000)
+
+  
+      var radio1 =  document.getElementById('rd1');
+      var radio2 = document.getElementById('rd2');
+      var radio3 = document.getElementById('rd3');
+      var radio4 = document.getElementById('rd4');
+        var slideBox = document.getElementsByClassName("slide-box")
+
+        function mudarP2 (slideBox){
+            slideBox.style.marginLeft = "-280px" 
+        }
+    
+    radio2.addEventListener("change", function(slideBox){
+        slideBox.style.color = "red"
+    })
+
 
 
 
