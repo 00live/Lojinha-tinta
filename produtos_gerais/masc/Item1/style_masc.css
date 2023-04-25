@@ -16,28 +16,29 @@
     width:120px ;
     height: 500px;
 }
-.img_slide{
-    width: 100%;
-}
 
+
+.slide-box img{
+    width: 50%;
+}
 section.slider{
     margin:0 auto;
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 100%;
     padding: 0 ;
     overflow: hidden;
      
 }
 .carrosel{  
-    width: 100%;
+    width: 400%;
     height: auto;  
     display: flex;
-    overflow: hidden;
+   
    
 
 }
-.slide_box{
-   width: 500px;
+.slide-box{
+   width: 25%;
     height: auto;
     position: relative;
     text-align: center;
@@ -57,8 +58,8 @@ align-items: center;
 justify-content: center;
 }
 
-.div_input{
-
+input{
+    display: none;
 }
 
 
@@ -116,11 +117,11 @@ justify-content: center;
 
 #rd1:checked ~ .primeiro{
   
-    background-color: black;
+    margin-left: 0%;
 }
 
-#rd2:checked ~ .primeiro{
-    margin-left: -25%;
+#rd2:checked ~ .carrosel:first-child{
+   
 }
 
 #rd3:checked ~ .primeiro{
