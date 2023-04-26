@@ -30,8 +30,22 @@ document.getElementById('rd1').checked = true
             slideBox.style.marginLeft = "-280px" 
         }
     
-    radio2.addEventListener("change", function(slideBox){
-        slideBox.style.color = "red"
+     
+    radio1.addEventListener("change", function(){
+        primeiro.style.marginLeft= "0px"; 
+    })    
+
+    radio2.addEventListener("change", function(){
+        primeiro.style.marginLeft= "-500px"; 
+    })
+    var primeiro = document.getElementById("primeiro")
+
+    radio3.addEventListener("change", function(){
+        primeiro.style.marginLeft= "-1000px"; 
+    })
+
+    radio4.addEventListener("change", function(){
+        primeiro.style.marginLeft= "-1500px"; 
     })
 
 

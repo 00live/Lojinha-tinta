@@ -11,10 +11,11 @@
      }  
 
 
-.imgs_lado{
-    background-color: red;
-    width:120px ;
+#sec_geral{
+    background-color: rgba(240, 248, 255, 0.296);
+    width:300px ;
     height: 500px;
+    display: flex;
 }
 
 
@@ -45,7 +46,8 @@ section.slider{
     height: 500px;
     position: relative;
     text-align: center;
-    
+    margin-left: 0;
+    transition: 700ms;
    
 }
 
@@ -117,5 +119,77 @@ input{
 }
 
 
+#sec_geral{
+    background-color: rgba(240, 248, 255, 0.844);
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+    border-radius: 10px;
+}
+
+    .text_titulo{
+    text-align: left;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+        .valor{
+            font-size: 30px;
+            margin-top: 25px;
+            position: relative;
+        }
 
 
+
+.tamanho{
+    display: flex;
+    margin-top: 50px;
+    gap:15px;
+    text-align: center;
+
+}
+
+.tam_item{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px;    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(170, 181, 167);
+    transition: 500ms;
+}
+
+.tam_item:active{
+   box-shadow: 5px 5px rgb(104, 112, 102);
+    translate: 5px 5px;
+    
+
+}
+
+.parte_baixo{
+    display: flex;
+}
+
+
+
+.frete{
+    text-align: right;
+    
+}
+
+.slc_compras{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    gap:8px;
+    
+
+}
+
+.bt_comprar, .br_carrinhos{
+    border: 1px solid black;
+}
