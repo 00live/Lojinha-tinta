@@ -22,7 +22,8 @@
 .slide-box img{
     height: 500px;
     width: 500px;
-   
+    border-radius: 30px;
+    
 }
 section.slider{
     margin:0 auto;
@@ -38,8 +39,8 @@ section.slider{
     height: 500px;  
     display: flex;
    overflow: hidden;
- 
-
+   box-shadow: 12px 12px rgb(32, 42, 49);
+   border-radius: 30px;
 }
 .slide-box {
     width: 500px;
@@ -72,18 +73,19 @@ input{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-left: -120px;
 }
 
 .nav_manual .manual_bt, .nav_auto div{
-    border: 2px solid rgb(63, 111, 59);
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.3s;
 }
 .nav_manual .manual_bt:hover{
-    background-color: rgb(63, 111, 59);
+    background-color: rgb(174, 182, 173);
 }
 
 .nav_manual .manual_bt:not(:last-child), .nav_auto div:not(:last-child){
@@ -115,7 +117,7 @@ input{
     #rd2:checked ~ .nav_auto .auto_bt2,
         #rd3:checked ~ .nav_auto .auto_bt3,
             #rd4:checked ~ .nav_auto .auto_bt4{
-    background-color:  rgb(63, 111, 59);
+    background-color:  rgba(255, 255, 255, 0.273)
 }
 
 
@@ -125,6 +127,7 @@ input{
     padding-right: 25px;
     display: inline;
     border-radius: 10px;
+    
 }
 
     .text_titulo{
@@ -159,13 +162,13 @@ input{
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: rgb(170, 181, 167);
-    transition: 500ms;
+    background-color: rgb(148, 165, 179);
+    transition: 350ms;
 }
 
-.tam_item:active{
-   box-shadow: 5px 5px rgb(104, 112, 102);
-    translate: 5px 5px;
+.tam_item:active, .bt_comprar:active, .br_carrinhos:active, .frete:active{
+   box-shadow: 5px 5px rgb(106, 118, 127);
+    translate: 2px 2px;
     
 
 }
@@ -177,7 +180,18 @@ input{
 
 
 .frete{
-    text-align: right;
+    margin-left: 95px;
+    display: flex;
+    width: 150px;
+    height: 50px;   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+   cursor: pointer;
+   background-color: rgb(148, 165, 179);
+   transition: 350ms;
+   margin-top: 15px;
     
 }
 
@@ -185,11 +199,19 @@ input{
     display: flex;
     text-align: center;
     margin-top: 50px;
-    gap:8px;
-    
+    gap:25px;
+    justify-content: right;
 
 }
 
 .bt_comprar, .br_carrinhos{
-    border: 1px solid black;
+    padding: 10px ;
+    font-size: 18px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   border-radius: 8px;
+   cursor: pointer;
+   background-color: rgb(148, 165, 179);
+   transition: 350ms;
 }
