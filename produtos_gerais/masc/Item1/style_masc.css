@@ -63,7 +63,8 @@ justify-content: center;
 }
 
 input{
-    display: none;
+   display: NONE;
+    
 }
 
 
@@ -153,29 +154,40 @@ input{
 
 }
 
-.tam_item{
+.parte_baixo{
+    display: flex;
+}
+
+
+.tamanho_item input + label:before{
     width: 50px;
     height: 50px;
     text-align: center;
     border-radius: 8px;    
     justify-content: center;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     cursor: pointer;
     background-color: rgb(148, 165, 179);
     transition: 350ms;
+    text-decoration: none;
+    content: "";  
+
+    }
+.tamanho_item input:checked + label:before{
+    background-color: red;
 }
 
-.tam_item:active, .bt_comprar:active, .br_carrinhos:active, .frete:active{
-   box-shadow: 5px 5px rgb(106, 118, 127);
-    translate: 2px 2px;
+
+#P:checked ~ .bt_item> .bt_1,
+#M:checked ~ .bt_item> .bt_2,
+#G:checked ~ .bt_item> .bt_3,
+#GG:checked ~ .bt_item> .bt_4
     
-
+   {
+    background-color: red;
 }
 
-.parte_baixo{
-    display: flex;
-}
 
 
 
@@ -215,3 +227,10 @@ input{
    background-color: rgb(148, 165, 179);
    transition: 350ms;
 }
+
+
+
+
+
+
+
