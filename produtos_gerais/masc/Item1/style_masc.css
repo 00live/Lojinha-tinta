@@ -62,8 +62,8 @@ align-items: center;
 justify-content: center;
 }
 
-input{
-   display: NONE;
+.input, .check{
+   display: none;
     
 }
 
@@ -184,6 +184,12 @@ content: "G";
     justify-content: center;
     align-items: center;}
 
+
+.tamanho_item {
+display: flex;
+gap: 15px;
+margin-top: 15px;
+}
 .tamanho_item input + label:before{
     width: 50px;
     height: 50px;
@@ -193,23 +199,14 @@ content: "G";
     background-color: rgb(148, 165, 179);
     transition: 350ms;
     text-decoration: none;
+   
       
 
     }
 .tamanho_item input:checked + label:before{
-    background-color: red;
+    box-shadow: 4px 4px rgb(57, 64, 69);
+    transform: translate(3px, 3px);
 }
-
-
-#P:checked ~ .bt_item> .bt_1,
-#M:checked ~ .bt_item> .bt_2,
-#G:checked ~ .bt_item> .bt_3,
-#GG:checked ~ .bt_item> .bt_4
-    
-   {
-    background-color: red;
-}
-
 
 
 
@@ -226,8 +223,33 @@ content: "G";
    background-color: rgb(148, 165, 179);
    transition: 350ms;
    margin-top: 15px;
-    
+   font-size: 15px;
+   padding: 0px 0px;
+   border:none!important;
 }
+#abertura_frete{
+    
+    
+    width: 250px;
+    height: 100px;   
+    justify-content: center;
+    border-radius: 8px;
+   background-color: rgb(148, 165, 179);
+   transition: 350ms;
+   margin-top: 7px;
+   font-size: 15px;
+   padding: 0px 0px;
+    transition: 500ms;
+   margin-top: 15px;
+}
+.esconder{
+display: none;
+margin-top: -50px;
+transition: 500ms;
+}
+
+
+
 
 .slc_compras{
     display: flex;
@@ -238,19 +260,72 @@ content: "G";
 
 }
 
-.bt_comprar, .br_carrinhos{
+#bt_comprar, .bt_carrinho{
     padding: 10px ;
     font-size: 18px;
-   display: flex;
-   text-align: center;
-   align-items: center;
+   display: inline;
    border-radius: 8px;
    cursor: pointer;
    background-color: rgb(148, 165, 179);
    transition: 350ms;
+   margin-top: 25px;
+   color: rgb(40, 54, 66);
+   border:none!important;
+   margin-left: 13px}
+
+
+.frete{
+    border-bottom: 2px solid black;
+}
+
+    #frete{ width: 90px;
+        height: 30px;
+        padding: 10px;
+        margin-top: 25px;
+        text-align: left;
+        margin-left: 15px;
+        text-decoration: none;
+        background-color: rgb(148, 165, 179);
+        border-bottom: 1px solid black;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+    }
+
+   #txt_frete {
+
+     width: 90px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 15px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(148, 165, 179);
+  
+   
+   
 }
 
 
+.bt_voltar{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    z-index: 12;
+    display: flex;
+    font-size: 20px;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   width: 70px;
+   height: 50px;
+   border-radius: 20px;
+   align-items: center;
+}
 
 
 

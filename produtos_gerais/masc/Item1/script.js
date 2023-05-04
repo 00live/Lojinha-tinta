@@ -50,13 +50,56 @@ document.getElementById('rd1').checked = true
     })
 
 
+    let btCheck = document.getElementById('bt_comprar')
+
+   btCheck.addEventListener('click', () =>{
+   var p = document.getElementById('P').checked;
+   var m = document.getElementById('M').checked;
+   var g = document.getElementById('G').checked;
+   var gg = document.getElementById('GG').checked;
+    
+   
+   let checkbox1 = document.getElementById('P')
+   let checkbox2 = document.getElementById('M')
+   let checkbox3 = document.getElementById('G')
+   let checkbox4 = document.getElementById('GG')
+        
+   let checkList = document.querySelectorAll('.check')
+  
 
 
 
 
 
+    if(p && m == true ){
+        alert("Só é possivel selecionar apenas um tamanho")
+        }
+        else if (p && g == true){
+            alert("Só é possivel selecionar apenas um tamanho")
+    }    else if (p && gg ==true){
+        alert("Só é possivel selecionar apenas um tamanho")
+    }   else if (m && g ==true){
+        alert("Só é possivel selecionar apenas um tamanho")
+    }   else if (m & gg ==true){
+        alert("Só é possivel selecionar apenas um tamanho")
+    }   else if (g && gg == true){
+        alert("Só é possivel selecionar apenas um tamanho")}   
+    
+    
 
 
+})
+
+ function abrirFrete(){
+        var divFrete = document.getElementById("abertura_frete")
+
+        divFrete.classList.toggle('esconder')
+
+        /*if(divFrete.classList.contains('esconder')){;}
+        else
+        { divFrete.classList.add('esconder') }*/
+
+}
 
 
 
