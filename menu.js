@@ -169,13 +169,21 @@ function abrir_skt(){
     section_skt.classList.toggle("hide");  
   }  
 
-    
+    function block(){
+        Swal.fire({
+            icon: 'error',
+            title: 'Poxa Cara',
+            text: 'esse item foi removido',
+          })
+    }
 
 
     function abrir_item1(){
         window.location.href = "/produtos_gerais/masc/Item1/index_masc.html"
     }
 
+    function abrir_item2(){
+        window.location.href = "/produtos_gerais/masc/item2/index.html"}
 
 
 

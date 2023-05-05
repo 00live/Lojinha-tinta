@@ -10,3 +10,333 @@
         height: 100vh;
      }  
 
+     *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;}
+    
+        .body{
+            background-image: url('/bg-produtos-gerais.jpg');
+            background-position: top center;
+            background-size: cover;
+            height: 100vh;
+         }  
+    
+    
+    #sec_geral{
+        background-color: rgba(240, 248, 255, 0.296);
+        width:300px ;
+        height: 500px;
+        display: flex;
+    }
+    
+    
+    .slide-box img{
+        height: 500px;
+        width: 500px;
+        border-radius: 30px;
+        
+    }
+    section.slider{
+        margin:0 auto;
+        height: 500px;
+        width: 500px;
+        padding: 0;
+        overflow: hidden;
+       
+         
+    }
+    .carrosel{  
+        width: 500px;
+        height: 500px;  
+        display: flex;
+       overflow: hidden;
+       box-shadow: 12px 12px rgb(32, 42, 49);
+       border-radius: 30px;
+    }
+    .slide-box {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        text-align: center;
+        margin-left: 0;
+        transition: 700ms;
+       
+    }
+    
+    
+    
+    .geral{
+    display: flex;
+    gap: 75px;
+    margin-top:50px ;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .input, .check{
+       display: none;
+        
+    }
+
+    
+.nav_manual, .nav_auto{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: -120px;
+}
+
+.nav_manual .manual_bt, .nav_auto div{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav_manual .manual_bt:hover{
+    background-color: rgb(174, 182, 173);
+}
+
+.nav_manual .manual_bt:not(:last-child), .nav_auto div:not(:last-child){
+    margin-right: 10px;
+}
+/*
+#rd1:checked .nav_auto .auto_bt1{
+    background-color: rgb(97, 136, 82);
+}
+
+#rd1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#rd2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#rd3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+#rd4:checked ~ .primeiro{
+    margin-left: 75%;
+}*/
+
+
+#rd1:checked ~ .nav_auto .auto_bt1, 
+    #rd2:checked ~ .nav_auto .auto_bt2,
+        #rd3:checked ~ .nav_auto .auto_bt3,
+            #rd4:checked ~ .nav_auto .auto_bt4{
+    background-color:  rgba(255, 255, 255, 0.273)
+}
+
+
+#sec_geral{
+    background-color: rgba(240, 248, 255, 0.844);
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+    border-radius: 10px;
+    
+}
+
+    .text_titulo{
+    text-align: left;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+        .valor{
+            font-size: 30px;
+            margin-top: 25px;
+            position: relative;
+        }
+
+
+
+.tamanho{
+    display: inline;
+    margin-top: 50px;
+    gap:15px;
+    text-align: center;
+
+}
+
+.parte_baixo{
+    display: flex;
+}
+
+.bt_1, .bt_2, .bt_3, .bt_4{
+display: flex;
+}
+
+.bt_1 > label:before{
+    content: "P";
+    text-align: center;
+    justify-content: center;
+    align-items: center;}
+.bt_2 > label:before{
+    content: "M";
+    text-align: center;
+    justify-content: center;
+    align-items: center;}
+.bt_3 > label:before{
+content: "G";
+ text-align: center;
+    justify-content: center;
+    align-items: center;}
+.bt_4 > label:before {
+   
+    content: "GG";
+    text-align: center;
+    justify-content: center;
+    align-items: center;}
+
+
+.tamanho_item {
+display: flex;
+gap: 15px;
+margin-top: 15px;
+}
+.tamanho_item input + label:before{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;    
+    display: inline-flex;
+    cursor: pointer;
+    background-color: rgb(148, 165, 179);
+    transition: 350ms;
+    text-decoration: none;
+   
+      
+
+    }
+.tamanho_item input:checked + label:before{
+    box-shadow: 4px 4px rgb(57, 64, 69);
+    transform: translate(3px, 3px);
+}
+
+
+
+.frete{
+    margin-left: 95px;
+    display: flex;
+    width: 150px;
+    height: 50px;   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+   cursor: pointer;
+   background-color: rgb(148, 165, 179);
+   transition: 350ms;
+   margin-top: 15px;
+   font-size: 15px;
+   padding: 0px 0px;
+   border:none!important;
+}
+#abertura_frete{
+    
+    
+    width: 250px;
+    height: 100px;   
+    justify-content: center;
+    border-radius: 8px;
+   background-color: rgb(148, 165, 179);
+   transition: 350ms;
+   margin-top: 7px;
+   font-size: 15px;
+   padding: 0px 0px;
+    transition: 500ms;
+   margin-top: 15px;
+}
+.esconder{
+display: none;
+margin-top: -50px;
+transition: 500ms;
+}
+
+
+
+
+.slc_compras{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    gap:25px;
+    justify-content: right;
+
+}
+
+#bt_comprar, .bt_carrinho{
+    padding: 10px ;
+    font-size: 18px;
+   display: inline;
+   border-radius: 8px;
+   cursor: pointer;
+   background-color: rgb(148, 165, 179);
+   transition: 350ms;
+   margin-top: 25px;
+   color: rgb(40, 54, 66);
+   border:none!important;
+   margin-left: 13px}
+
+
+.frete{
+    border-bottom: 2px solid black;
+}
+
+    #frete{ width: 90px;
+        height: 30px;
+        padding: 10px;
+        margin-top: 25px;
+        text-align: left;
+        margin-left: 15px;
+        text-decoration: none;
+        background-color: rgb(148, 165, 179);
+        border-bottom: 1px solid black;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+    }
+
+   #txt_frete {
+
+     width: 90px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 15px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(148, 165, 179);
+  
+   
+   
+}
+
+
+.bt_voltar{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    z-index: 12;
+    display: flex;
+    font-size: 20px;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   width: 70px;
+   height: 50px;
+   border-radius: 20px;
+   align-items: center;
+}
+
+    

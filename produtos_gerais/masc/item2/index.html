@@ -12,7 +12,121 @@
 </head>
 <body class="body">
 
-
+    <body class="body">
+        <a class="bt_voltar" href="/produtos_geral.html">Voltar</a>
+       
+        
     
+       <section class="geral"> 
+        
+            <div class="carrosel">
+            
+                <div 
+                id="primeiro"
+                class="slide-box" >
+                    <img class="img_slide" src="img1.jpg"  > 
+                </div>
+                
+                <div class="slide-box">  
+                    <img class="img_slide" src="img2.jpg" >
+                </div>
+    
+                <div class="slide-box">
+                    <img class="img_slide" src="img3.jpg">
+                </div>
+                
+                <div class="slide-box">   
+                    <img class="img_slide" src="img4.jpg" >
+                </div>
+    
+            </div>
+    
+    
+            <input type="radio" name="bt_radio" class="input" id="rd1" >
+            <input type="radio" name="bt_radio" class="input"id="rd2" >
+            <input type="radio" name="bt_radio"class="input"id="rd3" >
+            <input type="radio" name="bt_radio"class="input" id="rd4" >
+           
+            <section id="sec_geral">
+            
+                <div class="text_titulo"> 
+                    
+                        Toca de lá <br>
+                        Modelo curto<br>
+                        
+                    
+                </div>
+    
+                <div class="valor">
+                     R$250,00
+                </div>
+                <div>
+                    5x R$50,00 sem juros
+                </div>
+    
+                <div class="tamanho_item">
+                    <div class="bt_1">
+                        <input type="checkbox" name="P" id="P" class="check"></input>
+                        <label for="P" name="bt_p" class="p"></label>
+                    </div>
+                    <div class="bt_2">
+                        <input type="checkbox" name="M" id="M" class="check"></input>
+                        <label for="M" name="bt_m"></label>
+    
+                    </div>
+                    <div class="bt_3">
+                        <input type="checkbox" name="G" id="G" class="check"></input>
+                        <label for="G" name="bt_g"></label>
+    
+                    </div>
+                    <div class="bt_4">
+                        <input type="checkbox" name="GG" id="GG" class="check"></input> 
+                        <label for="GG"name="bt_gg"></label>
+                    </div>
+                </div>
+    
+    
+                 <Button 
+                        type="button" 
+                         class="frete" 
+                         onclick="abrirFrete()">Calcular Frete
+                </button>
+    
+                
+    
+                <div id="abertura_frete">
+                    <input type="text" name="txt_frete"  id="frete"  >
+                    <label for="txt_frete" id="txt_frete"  >Digite Seu CEP</label>
+                </div>
+    
+    
+    
+                        <button type="radio" name="" class="bt_carrinho"> Add Carrinho</button>
+                        <button type="radio"  name="Compras"  id="bt_comprar">Comprar</button>
+                       
+                
+    
+            </section>
+    
+        </section>
+    
+
+        <div class="nav_auto">
+            <div class="auto_bt1"></div>
+            <div class="auto_bt2"></div>
+            <div class="auto_bt3"></div>
+            <div class="auto_bt4"></div>
+        </div>
+    
+        <div class="nav_manual">
+            <label for ="rd1" class="manual_bt"></label>
+            <label for ="rd2" class="manual_bt"></label>
+            <label for ="rd3" class="manual_bt"></label>
+            <label for ="rd4" class="manual_bt"></label>
+        </div>
+       
+      
+
+
 </body>
 </html>
