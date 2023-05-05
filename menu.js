@@ -185,6 +185,9 @@ function abrir_skt(){
     function abrir_item2(){
         window.location.href = "/produtos_gerais/masc/item2/index.html"}
 
+        function abrir_item3(){
+        window.location.href = "/produtos_gerais/masc/item3/index.html"}
+           
 
 
 
