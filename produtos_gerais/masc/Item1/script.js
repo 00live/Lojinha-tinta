@@ -72,18 +72,43 @@ document.getElementById('rd1').checked = true
 
 
     if(p && m == true ){
-        alert("Só é possivel selecionar apenas um tamanho")
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong!',
+            footer: '<a href="">Why do I have this issue?</a>'
+          })
         }
         else if (p && g == true){
-            alert("Só é possivel selecionar apenas um tamanho")
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops',
+                text: 'Você não pode selecionar dois tamanhos',
+              })
     }    else if (p && gg ==true){
-        alert("Só é possivel selecionar apenas um tamanho")
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops',
+            text: 'Você não pode selecionar dois tamanhos',
+          })
     }   else if (m && g ==true){
-        alert("Só é possivel selecionar apenas um tamanho")
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops',
+            text: 'Você não pode selecionar dois tamanhos',
+          })
     }   else if (m & gg ==true){
-        alert("Só é possivel selecionar apenas um tamanho")
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops',
+            text: 'Você não pode selecionar dois tamanhos',
+          })
     }   else if (g && gg == true){
-        alert("Só é possivel selecionar apenas um tamanho")}   
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops',
+            text: 'Você não pode selecionar dois tamanhos',
+          })}   
     
     
 
