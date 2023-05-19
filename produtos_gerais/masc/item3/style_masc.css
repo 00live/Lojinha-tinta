@@ -363,16 +363,50 @@ transition: 500ms;
     box-shadow: 5px 5px;
     background-color: rgb(148, 165, 179);
     }
-
-    .jan_modal{
-        width: 100vw;
+    
+.modal{
+        width: 100%;
         height: 100vh;
         position: absolute;
         top:0;
         left: 0;
-        background-color:rgba(148, 165, 179, 0.825) ;
-        display: flex;
+        background-color:rgba(0, 0, 0, 0.445) ;
         align-items: center;
         justify-content: center;
         z-index: 120000;
-    }
+        display: none;
+        
+    } .jan_modal {
+        width: 50%;
+        min-width: 250px;
+        min-height: 50px;
+        background-color: rgba(240, 248, 255, 0.479);
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        text-align: center;
+        align-items: center;   
+        display: inline;  
+        padding-top: 40px;
+        padding-bottom: 50px;   
+        
+    }    .jan_modal> h3{
+        font-size: 25px;
+        padding-bottom: 50px;
+    }       .fechar{
+                position: absolute;
+                top:-5px;
+                right: -5px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: rgb(170, 42, 42);
+                font-size: 20px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .abrir{
+                display: flex;
+            }
