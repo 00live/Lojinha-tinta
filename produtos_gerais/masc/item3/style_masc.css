@@ -340,3 +340,39 @@ transition: 500ms;
 }
 
     
+
+
+
+.tipos_tam{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: -65px;
+    cursor: pointer;
+    background-color: rgb(148, 165, 179);
+    transition: 350ms;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}   .tipos_tam:hover{
+    transform: translate(2px, 2px);
+    box-shadow: 5px 5px;
+    background-color: rgb(148, 165, 179);
+    }
+
+    .jan_modal{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top:0;
+        left: 0;
+        background-color:rgba(148, 165, 179, 0.825) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 120000;
+    }

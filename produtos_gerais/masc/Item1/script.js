@@ -64,19 +64,18 @@ document.getElementById('rd1').checked = true
    let checkbox3 = document.getElementById('G')
    let checkbox4 = document.getElementById('GG')
         
-   let checkList = document.querySelectorAll('.check')
+   let checkList = document.querySelectorAll('.check');
   
 
 
 
 
 
-    if(p && m == true ){
+    if( p && m == true ){
         Swal.fire({
             icon: 'error',
-            title: 'Oops...',
-            text: 'Something went wrong!',
-            footer: '<a href="">Why do I have this issue?</a>'
+            title: 'Oops',
+            text: 'Você não pode selecionar dois tamanhos',
           })
         }
         else if (p && g == true){

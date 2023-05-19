@@ -107,7 +107,19 @@
 
 
 
-#rd1:checked ~ .nav_auto .auto_bt1 {
+#rd1:active + .nav_auto .auto_bt1{
+    background-color: rgb(0, 0, 0);
+}
+
+#rd2:checked ~ .nav_auto .auto_bt2 {
+    background-color: rgb(0, 0, 0);
+}
+
+#rd3:checked ~ .nav_auto .auto_bt3 {
+    background-color: rgb(0, 0, 0);
+}
+
+#rd4:checked ~ .nav_auto .auto_bt4 {
     background-color: rgb(0, 0, 0);
 }
 

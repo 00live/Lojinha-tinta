@@ -49,34 +49,27 @@ document.getElementById('rd1').checked = true
 
     let btCheck = document.getElementById('bt_comprar')
 
-   btCheck.addEventListener('click', () =>{
+    btCheck.addEventListener('click', () =>{
    var p = document.getElementById('P').checked;
    var m = document.getElementById('M').checked;
    var g = document.getElementById('G').checked;
    var gg = document.getElementById('GG').checked;
     
-   
-   let checkbox1 = document.getElementById('P')
-   let checkbox2 = document.getElementById('M')
-   let checkbox3 = document.getElementById('G')
-   let checkbox4 = document.getElementById('GG')
         
-   let checkList = document.querySelectorAll('.check')
+   let checkList = document.querySelectorAll('.check');
   
 
 
 
 
 
-    if(p && m == true ){
+    if (p && m == true ){
         Swal.fire({
             icon: 'error',
-            title: 'Oops...',
-            text: 'Something went wrong!',
-            footer: '<a href="">Why do I have this issue?</a>'
+            title: 'Oops',
+            text: 'Você não pode selecionar dois tamanhos',
           })
-        }
-        else if (p && g == true){
+    }   else if (p && g == true){
             Swal.fire({
                 icon: 'error',
                 title: 'Oops',
