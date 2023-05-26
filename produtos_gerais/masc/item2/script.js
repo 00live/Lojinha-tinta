@@ -119,6 +119,17 @@ document.getElementById('rd1').checked = true
 
 
 
+function abrir_tam(){
+    const modal = document.getElementById('jan_modal');
+    
+    modal.classList.add("abrir")
+    modal.addEventListener('click', (e) => {
+        if(e.target.id =="fechar" || e.target.id == "jan_modal"){
+        modal.classList.remove('abrir')
+        }
+    })
+ } 
+
 
 
 
